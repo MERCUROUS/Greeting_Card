@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Greeting Card</string>
+    <string name="et1">Type Here</string>
+    <string name="nougat">nougat</string>
+
+    <string name="hi">hi</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+</resources>

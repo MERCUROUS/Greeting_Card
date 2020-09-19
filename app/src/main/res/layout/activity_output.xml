@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".output"
+    android:background="@drawable/heart"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/image"
+        android:layout_width="332dp"
+        android:layout_height="573dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/black"
+        android:scaleType="centerCrop">
+
+        <TextView
+
+            android:id="@+id/hi3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:padding="48dp"
+            android:text="GREETINGS"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="40sp"
+            android:textStyle="bold|italic"
+            app:fontFamily="@font/almendra_display"
+            tools:targetApi="jelly_bean" />
+
+        <TextView
+            android:id="@+id/hi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hi3"
+            android:padding="16dp"
+            android:text="@string/hi"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            app:fontFamily="@font/almendra_display" />
+
+        <TextView
+            android:id="@+id/hi2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hi1"
+            android:padding="16dp"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+
+            app:fontFamily="@font/almendra_display" />
+
+
+        <TextView
+            android:id="@+id/hi4"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:padding="16dp"
+            android:layout_marginBottom="32dp"
+            android:text="@string/nougat"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            app:fontFamily="@font/almendra_display"
+            android:textStyle="bold|italic"/>
+    </RelativeLayout>
+
+</RelativeLayout>
